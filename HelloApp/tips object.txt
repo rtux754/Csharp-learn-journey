@@ -1,0 +1,84 @@
+/*
+ * ============================================================
+ * MATERI: PEMBUATAN OBJEK (OBJECT INSTANTIATION)
+ * ============================================================
+ * * Objek adalah "wujud nyata" dari sebuah Class (Blueprint).
+ * Ada 3 cara utama untuk membuat objek di C# modern:
+ *
+ * 1. CARA TRADISIONAL (Explisit)
+ * NamaClass objek = new NamaClass();
+ * -> Digunakan jika ingin sangat jelas tipenya.
+ *
+ * 2. CARA IMPLISIT (Menggunakan 'var')
+ * var objek = new NamaClass();
+ * -> Lebih ringkas, compiler menebak tipe dari sisi kanan.
+ *
+ * 3. TARGET-TYPED NEW (C# 9.0+) - "Paling Efisien"
+ * NamaClass objek = new();
+ * -> Paling bersih. Karena tipe di kiri sudah jelas, 
+ * sisi kanan tidak perlu menulis nama class lagi.
+ *
+ * PROSES DI MEMORI:
+ * - Variabel (Nama Objek) disimpan di STACK (sebagai referensi).
+ * - Data Objek sesungguhnya disimpan di HEAP.
+ * ============================================================
+ * Cara Implementasi di Kodemu
+ * gunakan gaya Target-Typed new 
+ * 
+ * namespace MicrosoftLearn;
+ * 
+ * public static class BelajarObject{
+ *  public static void Jalankan(){
+ *      // membuat object dari class 'Random' (bawaan .NET)
+ *      // untuk menghasilkan angka acak
+ *      Random dadu = new();
+ *      int hasil = dadu.Next(1, 7); // menghasilakan angka 1-6
+ *      Console.WriteLine(hasil);
+ *  }
+ * }
+ * 
+ * Nanti saat kamu membuat game 2D, hampir semua hal adalah objek.
+ * 
+ * Pemain (Player) adalah objek.
+ * Musuh (Enemy) adalah objek.
+ * Item adalah objek.
+ * 
+ * cara membuat objek secara efisien (menggunakan new())
+ * 
+ * ==============================================================
+ * Berikut adalah daftar "kata terlarang" dan "kata berisiko" yang sebaiknya kamu hindari saat memberi nama class: 
+ * 
+ * Reserved Keywords (Haram Digunakan)
+ * 
+ * Kamu tidak bisa menggunakannya sama sekali sebagai nama class kecuali kamu menggunakan "hack" khusus.
+ * 
+ * abstract	as	base	bool
+ * break	byte	case	catch
+ * char	checked	class	const
+ * continue	decimal	default	delegate
+ * do	double	else	enum
+ * event	explicit	extern	false
+ * finally	fixed	float	for
+ * foreach	goto	if	implicit
+ * in	int	interface	internal
+ * is	lock	long	namespace
+ * new	null	object	operator
+ * out	override	params	private
+ * protected	public	readonly	ref
+ * return	sbyte	sealed	short
+ * sizeof	stackalloc	static	string
+ * struct	switch	this	throw
+ * true	try	typeof	uint
+ * ulong	unchecked	unsafe	ushort
+ * using	virtual	void	volatile
+ * while
+ * 
+ * Ambiguous Names (Berisiko Tinggi)
+ * 
+ * Object, String, Int32, Boolean (Tipe data dasar).
+ * Console (Akan bentrok saat kamu panggil Console.WriteLine).
+ * List, Array, Task (Nama koleksi dan fungsi asinkron umum).
+ * App, Program, Main (Nama yang sering dipakai sebagai titik masuk aplikasi).
+ * 
+ * "The @ Hack" (Jika Terpaksa)
+ */

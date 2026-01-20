@@ -14,7 +14,7 @@ namespace MicrosoftLearn{
 			Console.WriteLine(firstNumber + secondNumber+"\n");
 			Console.WriteLine(firstName + " sold " + (widgetSold + 7) + " widgets.");
 			
-
+			// operator aritmatika
 			int sum = 7 + 5;
 			int difference = 7 + 5;
 			int product = 7 * 5;
@@ -24,6 +24,7 @@ namespace MicrosoftLearn{
 			Console.WriteLine("Product: " + product);
 			Console.WriteLine("Quotien: " + quotient);
 
+			// decimal 
 			decimal DecimalQuotien = 7.0m / 5;
 			Console.WriteLine($"DecimalQuotien: {DecimalQuotien}");
 

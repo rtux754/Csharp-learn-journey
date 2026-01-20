@@ -14,19 +14,31 @@ public static class IFtidak {
 
 
         if ((roll1 == roll2) || (roll2 == roll3) || (roll1 == roll3)) { // || (or logic)
-            Console.Write("You rolled doubles! +2 bonus total ");
-            total += 2;
-            Console.WriteLine(total);
+            if ((roll1 == roll2) && (roll2 == roll3)) {
+                Console.Write("You rolled triples! +6 bonus total ");
+                total += 6;
+                Console.WriteLine(total);
+            } else {
+                Console.Write("You rolled doubles! +2 bonus total ");
+                total += 2;
+                Console.WriteLine(total);
+                
+            }
         }
 
-        if ((roll1 == roll2) && (roll2 == roll3)) {
-            Console.Write("You rolled triples! +6 bonus total ");
-            total += 6;
-            Console.Write(total);
+        // Console.WriteLine((total > 18) ?"You Win" : "You Lose");
+
+        if (total >= 18) {
+            Console.WriteLine("You Win a new car");
+        } else if (total >= 15) {
+            Console.WriteLine("You Win a new laptop");
+        } else if (total >= 10) {
+            Console.WriteLine("You Win a pizza");
+        } else {
+            Console.WriteLine("You Lose");
         }
 
-        Console.WriteLine((total > 18) ?"You win" : "You lose");
-        
+       
         // string message = "The quick brown fox jumps over the lazy dog.";
         // bool result = message.Contains("lazy");
         // Console.WriteLine(result);

@@ -18,6 +18,7 @@ public static class ObjectMateri{
         //Console.WriteLine($"Third roll: {roll3}");
         ///*method specifies both the minimum and maximum values,*/
         
+        // membandingkan dua variabel untuk mencari pemilik value terbesar
         int firstValue = 500;
         int secondValue = 600;
         int largerValue = Math.Max(firstValue, secondValue);

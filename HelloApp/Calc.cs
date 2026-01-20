@@ -5,6 +5,7 @@ using System;
 namespace MicrosoftLearn{
 	public static class Calc{
 		public static void Jalankan(){
+			// deklarasi nama siswa
 			string studentName = "Sophia Johnson";
 			string course1Name = "English 101";
 			string course2Name = "Algebra 101";
@@ -12,12 +13,14 @@ namespace MicrosoftLearn{
 			string course4Name = "Computer Science I";
 			string course5Name = "Psychology 101";
 			
+
 			int course1Credit = 3;
 			int course2Credit = 3;
 			int course3Credit = 4;
 			int course4Credit = 4;
 			int course5Credit = 3;
 
+			// mendekalarasikan ranking A dan B
 			int gradeA = 4;
 			int gradeB = 3;
 

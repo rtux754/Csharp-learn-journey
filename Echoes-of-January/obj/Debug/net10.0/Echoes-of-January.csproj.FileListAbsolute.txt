@@ -1,0 +1,14 @@
+/home/fenrir/Echoes-of-January/bin/Debug/net10.0/Echoes-of-January
+/home/fenrir/Echoes-of-January/bin/Debug/net10.0/Echoes-of-January.deps.json
+/home/fenrir/Echoes-of-January/bin/Debug/net10.0/Echoes-of-January.runtimeconfig.json
+/home/fenrir/Echoes-of-January/bin/Debug/net10.0/Echoes-of-January.dll
+/home/fenrir/Echoes-of-January/bin/Debug/net10.0/Echoes-of-January.pdb
+/home/fenrir/Echoes-of-January/obj/Debug/net10.0/Echoes-of-January.GeneratedMSBuildEditorConfig.editorconfig
+/home/fenrir/Echoes-of-January/obj/Debug/net10.0/Echoes-of-January.AssemblyInfoInputs.cache
+/home/fenrir/Echoes-of-January/obj/Debug/net10.0/Echoes-of-January.AssemblyInfo.cs
+/home/fenrir/Echoes-of-January/obj/Debug/net10.0/Echoes-of-January.csproj.CoreCompileInputs.cache
+/home/fenrir/Echoes-of-January/obj/Debug/net10.0/Echoes-of-January.dll
+/home/fenrir/Echoes-of-January/obj/Debug/net10.0/refint/Echoes-of-January.dll
+/home/fenrir/Echoes-of-January/obj/Debug/net10.0/Echoes-of-January.pdb
+/home/fenrir/Echoes-of-January/obj/Debug/net10.0/Echoes-of-January.genruntimeconfig.cache
+/home/fenrir/Echoes-of-January/obj/Debug/net10.0/ref/Echoes-of-January.dll

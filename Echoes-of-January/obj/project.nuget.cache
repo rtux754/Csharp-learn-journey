@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6kQ2r4n6VbA=",
+  "dgSpecHash": "uB4wcsvqjfk=",
   "success": true,
-  "projectFilePath": "/home/fenrir/Echoes-of-January/Echoes-of-January.csproj",
+  "projectFilePath": "/home/fenrir/Csharp-learn-journey/Echoes-of-January/Echoes-of-January.csproj",
   "expectedPackageFiles": [
     "/home/fenrir/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
   ],

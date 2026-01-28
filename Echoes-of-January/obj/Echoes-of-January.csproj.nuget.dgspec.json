@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/fenrir/Echoes-of-January/Echoes-of-January.csproj": {}
+    "/home/fenrir/Csharp-learn-journey/Echoes-of-January/Echoes-of-January.csproj": {}
   },
   "projects": {
-    "/home/fenrir/Echoes-of-January/Echoes-of-January.csproj": {
+    "/home/fenrir/Csharp-learn-journey/Echoes-of-January/Echoes-of-January.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fenrir/Echoes-of-January/Echoes-of-January.csproj",
+        "projectUniqueName": "/home/fenrir/Csharp-learn-journey/Echoes-of-January/Echoes-of-January.csproj",
         "projectName": "Echoes-of-January",
-        "projectPath": "/home/fenrir/Echoes-of-January/Echoes-of-January.csproj",
+        "projectPath": "/home/fenrir/Csharp-learn-journey/Echoes-of-January/Echoes-of-January.csproj",
         "packagesPath": "/home/fenrir/.nuget/packages/",
-        "outputPath": "/home/fenrir/Echoes-of-January/obj/",
+        "outputPath": "/home/fenrir/Csharp-learn-journey/Echoes-of-January/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/fenrir/.nuget/NuGet/NuGet.Config"

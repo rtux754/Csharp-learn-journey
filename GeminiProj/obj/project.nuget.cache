@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vXYwSLqmHNo=",
+  "success": true,
+  "projectFilePath": "/home/fenrir/CsharpProject/GeminiProj/GeminiProj.csproj",
+  "expectedPackageFiles": [
+    "/home/fenrir/.nuget/packages/microsoft.aspnetcore.app.ref/10.0.0/microsoft.aspnetcore.app.ref.10.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
